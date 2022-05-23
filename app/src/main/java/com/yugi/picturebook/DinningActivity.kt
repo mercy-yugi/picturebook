@@ -20,7 +20,7 @@ class DinningActivity : AppCompatActivity() {
         }
             btnNext3 = findViewById(R.id.btnNext3)
             btnNext3.setOnClickListener {
-                val intent = Intent(this, KitchenActivivty::class.java)
+                val intent = Intent(this, OutdoorActivity::class.java)
                 startActivity(intent)
             }
     }

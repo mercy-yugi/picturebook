@@ -19,7 +19,7 @@ class KitchenActivivty : AppCompatActivity() {
         }
         btnNext4 = findViewById(R.id.btnNext3)
         btnNext4.setOnClickListener {
-            val intent = Intent(this, OutdoorActivity::class.java)
+            val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
         }
     }
