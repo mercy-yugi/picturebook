@@ -85,13 +85,15 @@
         android:id="@+id/tvDesc2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="30dp"
+        android:layout_marginBottom="398dp"
         android:text="Looking for a high quality seat that will compliment with almost every furniture in your living room? Try the new Baldwin Corner Seater. It has enough spaces for your family and water resistant leather material that is very easy to clean. Get yours today at our stores.There is a variety of colours that you can pick from."
 
         android:textSize="16sp"
         app:layout_constraintBottom_toTopOf="@+id/btnBack2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgSofa" />
 
     <Button
         android:id="@+id/btnBack2"
@@ -111,6 +113,7 @@
         android:layout_marginBottom="96dp"
         android:backgroundTint="#2B2323"
         android:text="NEXT"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/guideline4" />
